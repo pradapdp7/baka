@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  #black {
+    height: 100vh;
+    width: 100vw;
+    background-color: #111;
+  }
+  
+  #dvd {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 50px;
+    width: 100px;
+    mask: url("baka.svg");
+    -webkit-mask: url("baka.svg");
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position: center;
+  }
+  
